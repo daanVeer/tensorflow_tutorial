@@ -168,6 +168,7 @@ plt.xlabel('epochs')
 plt.ylabel('loss')
 plt.legend()
 plt.savefig('./results_plot/Basic_Text_Classification_1.png')
+plt.clf()
 
 plt.plot(epochs, acc, 'ro', label = 'Training acc') # red dot
 plt.plot(epochs, val_acc, 'r', label = 'Valindation acc') # solid red line
